@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .navbar-brand {
   height: 65px;
 }
@@ -102,6 +106,18 @@ main {
   margin: 0;
   padding: 0;
 }
+.services-list-link:hover {
+  color: #42BBFF !important;
+  transition: 0.4s;
+}
+.services-list-link:after {
+  display: block;
+  background-image: url("./img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 90%;
+}
 
 .hover .wrapper {
   display: flex;
@@ -202,6 +218,45 @@ main {
 .hover .card .info button:hover {
   background: dodgerblue;
   color: white;
+}
+
+#services {
+  margin-bottom: 200px;
+}
+
+.advantage-title {
+  background-color: #42BBFF;
+}
+.advantage-list {
+  width: 100%;
+  border: 2px solid #42BBFF;
+  padding: 80px 50px 30px 50px;
+}
+.advantage-list-wrapper-out {
+  background-color: white;
+  width: 620px;
+  padding: 25px;
+  position: absolute;
+  top: -200px;
+  left: 150px;
+  box-shadow: 0 0 53px rgba(0, 0, 0, 0.17);
+}
+.advantage-list-item {
+  display: flex;
+  align-items: center;
+}
+.advantage-list-item p {
+  font-size: 14px;
+  color: #8f8f8f !important;
+}
+.advantage-list-image span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #42BBFF;
+  width: 55px;
+  height: 55px;
 }
 
 /*# sourceMappingURL=style.css.map */
