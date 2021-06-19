@@ -284,3 +284,59 @@ main {
     }
   }
 }
+
+#contacts {
+  height: 70vh;
+}
+
+.contacts {
+  &-wrapper {
+    &-main {
+      width: 500px;
+      padding: 5px;
+    }
+  }
+  &-list {
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 20px;
+      box-shadow: 0 0 28px rgba(0, 0, 0, 0.15);
+    }
+    &-image {
+      margin-right: 10px;
+      background-color: #42BBFF;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        padding: 15px 20px;
+      }
+    }
+  }
+}
+
+
+.footer {
+  &-social {
+    &-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+          margin: 0 10px;
+          background-color: #42BBFF;
+          img {
+            padding: 15px 20px;
+          }
+        }
+      }
+    }
+  }
+}

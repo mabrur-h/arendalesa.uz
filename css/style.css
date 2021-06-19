@@ -259,4 +259,49 @@ main {
   height: 55px;
 }
 
+#contacts {
+  height: 70vh;
+}
+
+.contacts-wrapper-main {
+  width: 500px;
+  padding: 5px;
+}
+.contacts-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px;
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.15);
+}
+.contacts-list-image {
+  margin-right: 10px;
+  background-color: #42BBFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-list-image img {
+  padding: 15px 20px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-list-item a {
+  margin: 0 10px;
+  background-color: #42BBFF;
+}
+.footer-social-list-item a img {
+  padding: 15px 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
