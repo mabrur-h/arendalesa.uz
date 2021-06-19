@@ -299,9 +299,34 @@ main {
 .footer-social-list-item a {
   margin: 0 10px;
   background-color: #42BBFF;
+  border-radius: 50%;
 }
 .footer-social-list-item a img {
-  padding: 15px 20px;
+  padding: 20px 20px;
+}
+.footer-categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-categories-list {
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+.footer-categories-list a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+.footer-categories-list a:hover {
+  color: #42BBFF;
+  transition: 0.4s;
+}
+
+footer {
+  margin-top: 22px;
+  padding: 40px 0px;
+  border-top: 4px solid #42BBFF;
 }
 
 /*# sourceMappingURL=style.css.map */
