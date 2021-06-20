@@ -592,3 +592,87 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    &-brand {
+      &-text {
+        align-items: start;
+      }
+    }
+    &-elements {
+      &-list {
+        &-group {
+          select {
+            display: none;
+          }
+        }
+        &-button {
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .advantage {
+    &-list {
+      &-wrapper {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px){
+  .navbar {
+    &-elements {
+      &-list {
+        &-group {
+          display: none !important;
+        }
+      }
+    }
+  }
+  .main-slogan {
+    &-bg {
+      top: 34px;
+    }
+    h1 {
+      font-size: 1.6rem;
+      padding-bottom: 0 !important;
+    }
+  }
+  .advantage {
+    &-list {
+      &-wrapper {
+        padding: 0;
+        &-out {
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .contacts {
+    &-list {
+      padding-right: 0 !important;
+    }
+  }
+
+  .footer {
+    &-categories {
+      &-list {
+        padding: 0;
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  #advantages {
+    margin-bottom: 50px;
+  }
+}
