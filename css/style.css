@@ -333,4 +333,124 @@ footer {
   border-top: 4px solid #42BBFF;
 }
 
+@media screen and (max-width: 1440px) {
+  .navbar-elements-list {
+    padding-right: 60px;
+  }
+  .navbar-elements-list-item {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+
+  .advantage-main-image {
+    width: 110%;
+  }
+  .advantage-list-wrapper-out {
+    left: 40px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar-elements-list {
+    padding-right: 30px;
+  }
+  .navbar-elements-list-item {
+    padding-right: 6px !important;
+    padding-left: 6px !important;
+    font-size: 14px;
+  }
+
+  .services-content-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-content-main-left {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .services-content-main-left-inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .services-content-main-left-inner .text-muted {
+    padding-right: 0px !important;
+  }
+  .services-content-main-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #services {
+    margin-bottom: 0px;
+  }
+
+  #advantages {
+    margin-bottom: 100px;
+  }
+
+  #contacts {
+    height: auto;
+  }
+
+  .advantage-wrapper h1 {
+    text-align: center;
+  }
+  .advantage-wrapper .col-5 {
+    display: none;
+  }
+  .advantage-wrapper .col-7 {
+    width: 100%;
+  }
+  .advantage-list {
+    padding: 50px 50px 30px 50px;
+  }
+  .advantage-list-wrapper {
+    width: 80%;
+  }
+  .advantage-list-wrapper-out {
+    width: 100%;
+    left: 10px;
+    top: 20px;
+  }
+
+  .contacts-wrapper-main {
+    width: 100%;
+  }
+  .contacts-list-image {
+    margin-right: 30px;
+  }
+  .contacts-list-item {
+    justify-content: start;
+  }
+  .contacts-out {
+    flex-direction: column;
+  }
+  .contacts-map {
+    position: relative !important;
+    width: 120%;
+  }
+  .contacts-map img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar-elements {
+    border: none;
+  }
+  .navbar-elements-list {
+    display: none !important;
+  }
+
+  .services-content-wrapper .hover {
+    margin: 0 10px;
+  }
+
+  .contacts-map {
+    width: 150%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -373,3 +373,161 @@ footer {
   border-top: 4px solid #42BBFF;
 }
 
+@media screen and (max-width: 1440px) {
+  .navbar {
+    &-elements {
+      &-list {
+        padding-right: 60px;
+        &-item {
+          padding-right: 20px !important;
+          padding-left: 20px !important;
+        }
+      }
+    }
+  }
+  .advantage {
+    &-main {
+      &-image {
+        width: 110%;
+      }
+    }
+    &-list {
+      &-wrapper {
+        &-out {
+          left: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    &-elements {
+      &-list {
+        padding-right: 30px;
+        &-item {
+          padding-right: 6px !important;
+          padding-left: 6px !important;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .services {
+    &-content {
+      &-main {
+        flex-direction: column;
+        align-items: center;
+        &-left {
+          width: 60%;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          &-inner {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 30px;
+            .text-muted {
+              padding-right: 0px !important;
+            }
+          }
+        }
+        &-right {
+          width: 100%;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+
+  #services {
+    margin-bottom: 0px;
+  }
+  #advantages {
+    margin-bottom: 100px;
+  }
+  #contacts {
+    height: auto;
+  }
+  .advantage {
+    &-wrapper {
+      h1 {
+        text-align: center;
+      }
+      .col-5 {
+        display: none;
+      }
+      .col-7 {
+        width: 100%;
+      }
+    }
+    &-list {
+      padding: 50px 50px 30px 50px;
+      &-wrapper {
+        width: 80%;
+        &-out {
+          width: 100%;
+          left: 10px;
+          top: 20px;
+        }
+      }
+    }
+  }
+  .contacts {
+    &-wrapper {
+      &-main {
+        width: 100%;
+      }
+    }
+    &-list {
+      &-image {
+        margin-right: 30px;
+      }
+      &-item {
+        justify-content: start;
+      }
+    }
+    &-out {
+      flex-direction: column;
+    }
+    &-map {
+      position: relative !important;
+      width: 120%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    &-elements {
+      border: none;
+      &-list {
+        display: none !important;
+      }
+    }
+  }
+  .services {
+    &-content {
+      &-wrapper {
+        .hover {
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+  .contacts {
+    &-map {
+      width: 150%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
