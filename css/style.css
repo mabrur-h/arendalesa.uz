@@ -437,6 +437,10 @@ footer {
   }
 }
 @media screen and (max-width: 991px) {
+  .navbar .container {
+    max-width: initial;
+    padding: 0 20px;
+  }
   .navbar-elements {
     border: none;
   }
@@ -444,12 +448,55 @@ footer {
     display: none !important;
   }
 
-  .services-content-wrapper .hover {
+  .services-content-wrapper .col-8 {
+    padding: 0;
+  }
+  .services-content-wrapper .hover .card {
+    width: 350px;
     margin: 0 10px;
+  }
+  .services-content-wrapper .hover .card img {
+    width: 380px;
   }
 
   .contacts-map {
     width: 150%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-slogan-bg {
+    padding: 5px 70px 5px 320px;
+    top: 50px;
+  }
+  .main-slogan-bg .text-uppercase {
+    padding-bottom: 0 !important;
+  }
+  .main-slogan h1 {
+    padding-bottom: 18px !important;
+    font-size: 2.2rem;
+  }
+
+  .services-content-main-left {
+    width: 90%;
+  }
+  .services-content-main-right {
+    flex-direction: column;
+  }
+  .services-content-main-right .hover {
+    margin-bottom: 20px;
+  }
+  .services-content-main-right .hover .card:hover:before {
+    left: 5px;
+  }
+  .footer-wrapper p {
+    text-align: center;
+  }
+  .footer-wrapper span {
+    display: block;
+  }
+
+  .advantage-list {
+    padding: 30px 15px 30px 15px;
   }
 }
 

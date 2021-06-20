@@ -505,6 +505,10 @@ footer {
 
 @media screen and (max-width: 991px) {
   .navbar {
+    .container {
+      max-width: initial;
+      padding: 0 20px;
+    }
     &-elements {
       border: none;
       &-list {
@@ -515,8 +519,15 @@ footer {
   .services {
     &-content {
       &-wrapper {
-        .hover {
+        .col-8 {
+          padding: 0;
+        }
+        .hover .card {
+          width: 350px;
           margin: 0 10px;
+          img {
+            width: 380px;
+          }
         }
       }
     }
@@ -529,5 +540,55 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    .main {
+      &-slogan {
+        &-bg {
+          padding: 5px 70px 5px 320px;
+          top: 50px;
+          .text-uppercase {
+            padding-bottom: 0 !important;
+          }
+        }
+        h1 {
+          padding-bottom: 18px !important;
+          font-size: 2.2rem;
+        }
+      }
+    }
+  .services {
+    &-content {
+      &-main {
+        &-left {
+          width: 90%;
+        }
+        &-right {
+          flex-direction: column;
+          .hover {
+            margin-bottom: 20px;
+          }
+          .hover .card:hover:before {
+            left: 5px;
+          }
+        }
+      }
+      &-wrapper {
 
+      }
+    }
+  }
+  .footer {
+    &-wrapper {
+      p {
+        text-align: center;
+      }
+      span {
+        display: block;
+      }
+    }
+  }
+  .advantage {
+    &-list {
+      padding: 30px 15px 30px 15px;
+    }
+  }
 }
